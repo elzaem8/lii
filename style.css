@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://i0.wp.com/3rb.me/wp-content/uploads/2024/03/wp133237861.jpg);
+    background-size: cover;
+    background-position: center;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    color: #0a0707; /* جعل النصوص بيضاء */
+}
+
+header {
+    background: rgba(238, 10, 10, 0); /* خلفية شبه شفافة */
+    color: #0a0202;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #0c0303;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background: rgba(247, 239, 239, 0); /* خلفية شفافة */
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(245, 243, 243, 0);
+    color: #070101; /* جعل النصوص داخل القسم بيضاء */
+}
+
+blockquote {
+    border-left: 4px solid #ff0000;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: #110909; /* جعل النص داخل الاقتباس أبيض */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: rgba(14, 4, 4, 0); /* خلفية شبه شفافة */
+    color: #0e0808;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+blockquote {
+    font-size: 0.9em; /* تعديل حجم الخط لأجهزة المحمول */
+}
